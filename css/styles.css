@@ -1,0 +1,132 @@
+body {
+    text-align: center;
+}
+
+.top-bar {
+    background-color: grey;
+    height: 30%;
+}
+
+.top-item {
+    list-style: None;
+    display: inline;
+    margin: 0 3%;
+}
+
+.top-list {
+    padding: 0.5% 0;
+}
+
+.navbar {
+    min-height: 0;
+    height: 100%;
+}
+
+.navbardiv {
+    background-color: black;
+}
+
+
+/* Welcome section */
+
+#Welcome {
+    background-image: url(../images/Welcom.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#welcomeimage {
+    padding-top: 5%;
+}
+
+.btn {
+    background-color: #ffc15e;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+
+/* Service Section */
+
+.serviceheading {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.service-hr {
+    width: 10%;
+    border: none;
+    border-top: 4px dotted darkslategrey;
+}
+
+.pricebuttondiv {
+    padding-top: 3%;
+}
+
+
+/* trading section */
+
+#Cartrade {
+    padding-top: 3%;
+    background-color: wheat;
+}
+
+
+/* testimonials section */
+
+#Testimonials {
+    padding: 5% 15%;
+}
+
+.carimg {
+    border-radius: 100%;
+}
+
+.fill {
+    border-radius: 100%;
+    margin: 5%;
+}
+
+.cartext {
+    padding: 1% 19% 0% 19%;
+}
+
+.carcolor {
+    background-color: rosybrown;
+}
+
+
+/* contact-info section */
+
+.contact-form {
+    background: #fff;
+    padding: 10%;
+}
+
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+
+
+/* .contact-form form {
+    margin-left: 20%;
+} */
+
+
+/* .contact-form form .row {
+    margin-bottom: -7%;
+} */
+
+.btncontact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
